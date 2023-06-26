@@ -144,3 +144,68 @@ body {
   display: inline-block;
   font-size: 12px;
 }
+
+/* -------------------- social-media section --------------------- */
+#social-media{
+  background: #f8f9fa;
+  padding: 100px 0;
+}
+#social-media p{
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.social-icon img{
+  transition:.5s ease all;
+  width: 60px;
+ cursor: pointer; 
+}
+.social-icon a:hover img{
+  transform: translateY(-10px);
+}
+/* -------------------- footer section --------------------- */
+#footer
+{
+  background-image: linear-gradient(to right , #a517ba, #5f1782) ;
+  color:#fff;
+}
+.footer-img
+{
+  width: 100%;
+}
+.footer-box{
+  padding: 20px;
+}
+.footer-box img{
+  width: 120px!important;
+  margin-bottom: 20px;
+}
+.footer-box .custom{
+  margin-right: 8px;
+  font-size: 28px;
+  height: 18px;
+  padding-bottom: 4px;
+  width: 29px;
+  text-align: center;
+  padding-top: 9px;
+  border-radius: 5px;
+  background-image: linear-gradient(to right , #a517ba, #5f1782);
+}
+.footer-box .form-control{
+  box-shadow: none !important;
+    border: none;
+    border-radius: 0;
+ margin-top: 25px;
+    max-width: 250px;
+}
+.footer-box .btn{
+  background-image: linear-gradient(to right , #a517ba, #5f1782);
+  display: inline-block;
+  box-shadow: none !important;
+  border: none;
+  border-radius: 0;
+    cursor: pointer; 
+    transition:all ease-in-out 3s;
+    margin-top: 30px;
+
+}
